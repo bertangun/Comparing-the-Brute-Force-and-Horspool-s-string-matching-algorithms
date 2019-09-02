@@ -92,15 +92,16 @@ Implementation Instructions for the Bonus Part:
 
 1) When option 4 (Analyze the average-case efficiencies of Brute-Force and Horspool's
 Algorithms) is chosen by the user, the below steps will be executed:
-a. The program will generate 100 random patterns consisting of small-case or
+
+     a. The program will generate 100 random patterns consisting of small-case or
 upper-case letters, i.e. a-z and A-Z, digits (0-9), exclamation mark (‘!’),
 question mark (‘?’), dot (‘.’), or comma (’,’). The length of each pattern should
 be between 3 and 7.
 
-b. For each of the 100 random patterns generated in the above-case, execute both
+     b. For each of the 100 random patterns generated in the above-case, execute both
 Brute-force and Horspool’s algorithms.
 
-c. Display how many times the basic operations of the algorithms have been
+     c. Display how many times the basic operations of the algorithms have been
 performed in average which will give the experimental average-case efficiency
 of these algorithms.
     
