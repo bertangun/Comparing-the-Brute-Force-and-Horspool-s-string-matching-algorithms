@@ -1,14 +1,3 @@
-/*
-Student Name: Bertan Güneþ and Oðuzhan Ünalýr
-Student ID: 1263225 and 0858055
-Operating System: {Windows[8.1]}
-Compile Status: {Compiling} (Is your program successfully compiled?)
-Execution Status: {Working} (Is it working?)
-Bonus Part: {Implemented} (Did you implement the bonus part?)
-Comments: Bonus partda(4) , 100 tane random sayýyý teker teker artýrýp ,her bir arttýrmada iki algoritmayý karþýlaþtýrma yapýyor ,
-100 tane random sayýyý(process yavaþ ilerliyor!!) oluþturduktan sonra avg exe time gösteriliyor.
-*/
-
 
 package projectAnalysis;
 
@@ -25,7 +14,7 @@ import java.util.Scanner;
 public class Main {
 	public static void main(String [] args) throws IOException {
              		 
-		Text textReader = new Text("the_truman_show_script.txt");              // text class'ýnýn contructor'ý çaðrýldý.
+		Text textReader = new Text("the_truman_show_script.txt");              // text class'Ã½nÃ½n contructor'Ã½ Ã§aÃ°rÃ½ldÃ½.
 		ArrayList<String> text = textReader.getArrayList();
 		int d,tt;
 	        
